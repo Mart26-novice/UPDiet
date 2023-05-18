@@ -6,6 +6,7 @@
         error_reporting(0);
         session_start(); 
         //MY COMMENT TUGS
+        //add comment
         // prevent signin when already logged in
         if(isset($_SESSION["admin"])) header("location:profile.php");
     ?>
